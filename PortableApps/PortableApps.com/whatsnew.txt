@@ -1,0 +1,20 @@
+* Version 13.0 [2016-02-26] *
+
+ADDED: Ability to update multiple copies of apps in secondary directories (AppNamePortable_Copy_2, etc)
+ADDED: Windows 10 high DPI compatibility to the platform App Store and Updater. Full compatibility to come
+ADDED: Show Hidden icons option to Apps menu to allow showing when all apps hidden
+ADDED: Donate and Website options to app right-click menu
+ADDED: Material icons for improved clarity in default themes
+UPDATED: Croatian, Estonian, Korean, Simplified Chinese, Slovenian, Spanish International, Turkish locales
+FIXED: File error when user manually deletes the whatsnew txt file
+FIXED: Seeing What's New remembered if the platform crashes, is unsafe ejected, or forced closed by a Windows shutdown
+FIXED: Access violation if platform loses focus from initial What's New or autorun.inf change warning windows
+FIXED: "Apps" shown as label for both the app list and app management entry in system tray menu
+FIXED: Platform installer upgraded to NSIS3 to increase security when run from Downloads folder
+
+* Version 12.2 [2015-09-25] *
+
+ADDED: Context menu button support on menu app list using keyboard mode
+ADDED: Errors moved to end of updater/app store to avoid interruptions of long sets of apps
+UPDATED: Bulgarian, Chinese-Simplified, Dutch, French, German, Hungarian, Korean, Polish, Romanian locales
+FIXED: Wallpaper switcher produces blank color background on Windows 8/10 with external drives
